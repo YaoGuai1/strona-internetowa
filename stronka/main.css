@@ -1,0 +1,254 @@
+body{
+	background-color: #515151;
+	margin: 0;
+	color: #efefef;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	
+}
+
+h1.logo{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.game{
+	width: 1030px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.recka{
+	text-align: justify;
+	width: 824px;
+	border-style: groove;
+	padding: 25px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+.ocena{
+	width: 200px;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 6px;
+}
+
+h1.ocena{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;	
+}
+
+.komentarze{
+	clear: both;
+	width: 824px;
+	border-style: groove;
+	padding: 25px;
+	text-align: left;
+}
+
+
+nav{
+	text-align: center;
+	padding-bottom: 10px;
+	z-index: 999;
+	cursor: pointer;
+}
+
+header{
+	text-align: center;
+}
+
+ol.menu{
+  	list-style-type:none;
+  	margin: 0;
+  	padding:0;
+  	font-size:24px;
+  	height:2em;
+  	line-height:2em;
+}
+
+ol.menu > li {
+	display: inline-table;
+  	background-color:#ddd;
+  	width:200px;
+	height:2em;
+}
+
+ol.menu > li:first-child{
+	margin-left: 0;
+}
+
+ol.menu a {
+  	display:block;
+  	color:#000;
+  	text-decoration:none;
+	padding:0 5px;
+}
+
+ol.menu > li:hover {
+ 	background-color:#EEE;
+}
+
+ol.menu > li > a:hover {
+  	color:#09C;
+}
+
+ol.menu > li > ul {
+	display: none;
+  	list-style-type:none;
+  	padding:0;
+  	margin:0;
+}
+
+ol.menu > li:hover > ul {
+ 	display: block;
+}
+
+ol.menu > li > ul > li {
+  	background-color:#EEE;
+  	position: relative;
+  	z-index: 900;
+}
+
+ol.menu > li > ul > li > a {
+  	border-top:1px solid #303030;
+}
+
+ol.menu > li > ul > li:hover {
+  	background-color:#DDD;
+}
+
+ol.menu > li > ul > li > a:hover {
+  	color:#09C;
+}
+
+.sticky{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 900;
+}
+
+#slider{
+	max-width:1030px;
+	position: relative;
+	z-index: 90;
+}
+
+.mySlides{
+	width:100%;
+	display:none;
+}
+
+#Login{
+	z-index:100;
+}
+
+#Rejestracja{
+	z-index:110;
+}
+
+.sekcja_logowania{
+	text-align: center;
+}
+
+#logowanie{
+	width: 513px;
+}
+
+.error{
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.captcha{
+	margin-left: 135px;
+}
+
+#wyloguj{
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ocena{
+	width: 100%;
+}
+
+.wypisywanie_komentarzy{
+	text-align: justify;
+}
+
+.nick_w_kom{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.data_w_kom{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+iframe{
+	text-align: center;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,1);
+	z-index: fixed;
+}
+
+#preloader #image {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #000 url('5.gif') no-repeat center;
+	margin: -60px 0 0 -60px;
+}
+
+footer{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	color: white;
+	width: 1030px;
+	margin-top: 5px;
+}
+
+.dzien{
+	color: black;
+	background-color: #efefef;	
+}
+
+.znikniecie{
+	display: none;
+}
+
+.dodruku{
+	color: black;
+	border-style: none;
+	background-color: white;
+	float: left;
+}
